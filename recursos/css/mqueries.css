@@ -1,0 +1,195 @@
+@media only screen and (max-width: 1024px){
+    /*Registro*/   
+    .registro img {
+        width: 26%;
+    }
+    
+    /*Planes*/ 
+    .plan-contenedor {
+        width: 80%;
+    }
+
+    .info-adicional p{
+        padding:10px 0;
+     }
+}
+
+@media only screen and (max-width: 768px){
+    
+   
+
+    /*Características*/  
+    .c-info {
+        width: 95%;
+    }
+
+     /*Registro*/   
+     .registro img {
+        width: 35%;
+    }
+
+    /*Ciudades*/
+    .ciudades .cuartos{
+        width: 22%;
+        margin: 1%;      
+    }
+    
+    .cuartos p{
+        line-height: 20px;
+    }
+
+    h3{
+        margin-bottom: 0;
+        margin-top:5px;
+    }
+
+
+    /*Planes*/ 
+    .plan-contenedor {
+        width: 100%;
+    }
+
+    .plan-contenedor p{
+        font-size: 0.8rem;
+        line-height: 155%;
+    }
+
+     /*Footer*/ 
+    .politicas{
+        line-height: 30px;
+        right: 10%; 
+    }
+    
+    .politicas li {
+        padding-left: 27px;
+    }
+
+    .politicas::after{
+        margin: 5px auto;
+    }
+    
+    .redes-sociales {
+        right: 16%;
+        top: 50%;
+    }
+    
+    .socios{
+        left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    /*Header*/
+    .nav-principal{
+        width: 100%;
+        font-size: 0.9rem;
+    }   
+    
+    .nav-principal a{
+        margin-left:50px;
+    }
+
+    .nav-principal li{
+        margin: 0px;   
+    }
+
+    h1{
+        font-size: 1.4rem;
+    }
+    
+    /*Herramientas*/
+    .c-info{
+        padding-top: 20px;
+    }
+
+    .c-info i {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    /*Viviendas destacadas*/
+
+    .f-contenedor li{
+        width: 50%;
+    }
+
+    .fotos-casas{
+        padding-top: 40px;
+    }
+
+    /*Planes*/ 
+    .plan-contenedor {
+        width: 100%;
+    }
+
+    .registro img{
+        width: 55%;
+    }
+
+    /*Ciudades*/ 
+
+    .ciudades .cuartos{
+        width: 100%;
+        margin: 1%;
+        margin-top: 10px;
+    }
+
+    .ciudades ul{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .info-adicional p{
+        padding:10px 120px;
+   
+    } 
+    
+    /*Planes*/ 
+    .plan-completo {
+        width: 29%;
+        margin-left: 3%;
+    }
+    
+    .plan-cuerpo a {
+        width: 80%;
+    }
+
+    .plan-contenedor p {
+        line-height: 125%;
+        padding:5px 5px;
+    }
+
+    /*Footer*/ 
+    .socios {
+        top: 60%;}
+
+    .socios img {
+        width: 50px;
+    }
+
+    .redes-sociales {
+        top: 65%;
+    }
+
+    .politicas {
+        width: 90%;
+        top: 10px;
+    }
+
+}  
+
+
+

@@ -1,0 +1,471 @@
+﻿/**************************************
+              CONFIGURATION     
+***************************************/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{ 
+    --brand-color: #16a085;
+    --brand-shadow:#0d604f;
+    --brand-ligth:#8ee7d5;
+}
+
+html{
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    color: black;
+ }
+
+/**************************************
+                HEADINGS               
+***************************************/
+h1, h2, h3{
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+    }
+    
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+h2{
+    font-size: 1.5rem;
+    word-spacing: 2px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: var(--brand-ligth);
+    margin: auto;
+    margin-top: 30px;
+    content: "";
+}
+
+h3{
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+
+
+
+p{
+    font-size: 0.9rem;
+    line-height: 135%;
+    text-align: left;
+
+}
+
+
+/**************************************
+                HEADER                  
+***************************************/
+
+
+ header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.603)),url("imagenes/apartment-4.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+
+.titulo-box{
+    position: absolute;
+    width: 60%;
+    top:50%;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+/********Esta parte es para los botones********/
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid var(--brand-color);
+    color: whitesmoke;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.btn-complete{
+    background-color: var(--brand-color);
+    margin-right: 25px;
+}
+
+.btn-transparent{
+    color: var(--brand-color)
+}
+
+.btn:hover{
+    background-color:var(--brand-shadow);
+    border: 1px solid var(--brand-ligth);
+    cursor: pointer;
+}
+
+/*********************************************
+Esta parte se encarga del nav
+*********************************************/
+
+nav{
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+/*********Esta parte se encarga del logo*********/
+
+.logo{
+    float: left;
+    width: 10%;
+    min-width: 100px;
+
+}
+
+/*********Esta parte se encarga del menú*********/
+.nav-principal{
+    margin-left: 50px;
+    padding-top: 20px;
+    float: right;
+}
+
+.nav-principal li{
+    display: inline-block;
+    margin:10px;
+}
+
+.nav-principal a{
+    text-decoration: none;
+    color:white;
+    margin-left:50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: border-botton 0.4s;
+    padding: 10px;
+}
+
+.nav-principal a:hover{
+    border-bottom: 1px solid var(--brand-shadow)
+
+}
+
+/**************************************
+                CARACTERÍSTICAS               
+***************************************/
+.caracteristicas{
+    overflow: auto;
+}
+
+
+.c-paragrafo{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+}
+
+.c-info{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;       
+
+}
+
+.col{
+    padding-left: 1%;
+}
+
+.c-info i{
+    width: 80%;
+    margin: auto;
+    font-size: 2.5rem;
+    color:var(--brand-ligth);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/**************************************
+            VIVIENDAS DESTACADAS        
+***************************************/
+
+.viviendas-destacadas{
+    overflow: auto;
+}
+
+.fotos-casas{
+    padding-top: 60px;
+
+}
+
+.f-contenedor{
+    width: 100%;
+    list-style: none;;
+    
+}
+
+.f-contenedor li{
+    float: left;
+    width: 25%;
+    overflow: hidden;  
+}
+
+/*Para que las imagenes tengal el mismo tamaño. Principal, el padding.*/
+
+.f-contenedor a{
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding: 56.2% 0 0 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.f-contenedor img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    transform: scale(1.1); /*Agrando la imagen un poco (para el zoom-out)*/
+    transition: transform 0.4s, opacity 0.4s;
+    opacity: 0.7;
+}
+
+.f-contenedor img:hover{
+    transform: scale(1); /*Disminuye la imagen un poco (para el zoom-out)*/
+    opacity: 1
+}
+/**************************************
+                 Registro        
+***************************************/
+.registro{
+    overflow: hidden;
+}
+
+
+
+.registro img{
+    display: block;
+    float: right;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.registra-contenedor p{
+    padding: 10px 0;
+}
+
+.registra-contenedor i{
+    color:var(--brand-shadow);
+    width: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+  
+}
+
+.registra-contenedor a{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+/**************************************
+                 CIUDADES       
+***************************************/
+.ciudades{
+    overflow: auto;
+    
+}
+
+.ciudades ul{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    list-style-type: none; 
+    
+}
+
+.ciudades .cuartos{
+    width: 20%;
+    float: left;
+    margin-left: 4%; 
+      
+}
+
+.ciudades li img{
+    width: 100%;
+}
+
+.info-adicional i{
+    color:var(--brand-color);
+    width: 50px;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+.info-adicional p{
+   padding:30px 0;
+   font-size: 0.9rem; 
+}
+
+/**************************************
+                 PLANES      
+***************************************/
+.planes{
+    background-color: #f7f7f7;
+    color:black;
+    padding-bottom: 60px;
+ }
+
+.plan-contenedor{
+    width: 80%;
+    margin: auto;  
+    padding-top: 60px;  
+}
+
+/*Acá creamos la sombra*/
+.plan-completo{
+    width: 25%;
+    background-color: white;
+    border: 1px solid rgb(241,241,241);
+    display:inline-block;
+    margin-left: 6.25%;
+    box-shadow: 1px 1px 10px var(--brand-color);
+}
+
+.plan-titulo, .plan-titulo-mejor{
+    width: 100%;
+    height: 90px;
+    background-color:  var(--brand-color);
+    color:white;
+    margin-bottom: 20px;
+}
+
+.plan-titulo h3, .plan-titulo-mejor h3{ 
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.plan-titulo-mejor{
+    background-color: var(--brand-shadow);
+}
+
+.plan-completo{
+    font-size: 0.8rem;
+}
+
+.plan-cuerpo i{
+    width: 30px;
+    text-align: center;
+    color:gold;
+}
+
+.plan-cuerpo a{
+    display: block;
+    width: 60%;
+    margin:15px auto;
+    text-align: center;  
+}
+
+/**************************************
+                 FOOTER
+***************************************/
+
+footer{
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    position: relative;
+    height: 30vh;
+    font-size: 0.7rem;
+}
+.politicas{
+     position: absolute;
+     width: 80%;
+     right: 0;
+     left: 0;
+     top:30px;
+     margin:auto;
+     text-align: center;
+}
+
+.politicas::after{
+    display:block;
+    content: "";
+    width: 200px;
+    margin: 20px auto; 
+    height: 2px;
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+
+
+.politicas li{
+     display:inline-block;
+     padding-left: 50px;
+     text-decoration: none;   
+}
+
+.politicas li:hover{
+    color:var(--brand-color);
+    text-decoration: underline;
+    cursor:pointer;
+    transition: color 0.3s;
+}
+
+.socios{
+        position: absolute;
+        left: 20%;
+        top: 40%;
+        width: 60%;
+}
+
+.socios img{
+    width: 80px;
+    cursor: pointer;
+}
+
+.redes-sociales{
+   position: absolute;
+   right: 20%;
+   top: 45%;
+   text-align: center;
+}
+
+.redes-sociales i{
+    width: 20px;
+    color:white;
+    transition: color 0.1s;
+}
+
+.redes-sociales i:hover{
+    color:var(--brand-color);
+    cursor: pointer;
+    
+ }
