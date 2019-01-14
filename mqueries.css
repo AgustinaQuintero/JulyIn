@@ -25,7 +25,7 @@
 
      /*Registro*/   
      .registro img {
-        width: 35%;
+        width: 33%;
     }
 
     /*Ciudades*/
@@ -191,5 +191,122 @@
 
 }  
 
+@media only screen and (max-width: 425px){
+  
+    /*HEADER*/
+    .nav-principal{
+        font-size: 0.8rem;
+        text-align: center;
+    }   
+    .nav-principal a{
+        margin-left: 15px;
+    }
+    
+    h1{
+        font-size: 1.2rem;
+    }
+    
+    .logo{
+        width: 25px;
+    }
+    
+    .titulo-box {
+        width: 100%;
+        left: 50px;
+    }
 
 
+    /*REGISTRO*/
+    .registro img {
+        width: 64%;
+    }
+
+    .registra-contenedor p {
+        padding: 13px 0;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .info-adicional p {
+        padding: 10px 80px;
+    }
+
+    /*PLANES*/
+
+    .plan-completo {
+        width: 60%;
+        margin: 15px 80px;
+    }
+
+    .plan-cuerpo a{
+        width: 50%;
+    }
+}  
+
+@media only screen and (max-width: 375px){
+
+    header {
+    width: 120%;
+     }
+
+    /*REGISTRO*/
+
+    html {
+    width: 110%;
+    }
+
+    .registro img {
+        width: 70%;
+    }
+
+    p {
+        line-height: 155%;
+        text-align: none;
+    }
+
+    .registra-contenedor p {
+        padding: 14px 1px;
+    }
+
+    
+
+    /*CIUDADES*/
+    .info-adicional p {
+        padding: 10px 60px;
+    }  
+
+    /*FOOTER*/
+    
+    .socios {
+        top: 70%;
+    }
+
+    .socios img {
+        width: 40px;
+    }
+
+    .redes-sociales {
+        right: 6%;
+        width: 40%;
+    }
+
+    footer {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    /*Header*/
+    .btn {
+        padding: 10px 20px;
+    }
+
+    /*Registro*/
+    .registro img {
+        width: 80%;
+    }
+
+}
