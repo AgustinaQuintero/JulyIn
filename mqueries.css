@@ -1,3 +1,44 @@
+@media only screen and (max-width: 1440px){
+
+    /*REGISTRO*/
+    .registra-contenedor p {
+    padding: 13px 0;
+    }
+
+    /*FOOTER*/
+    .redes-sociales {
+        width: 10%;
+        right: 10%;
+    }
+
+    .socios img {
+        width: 150px;
+    }
+
+    .socios {
+        left: 5%;
+        top:20%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    /*REGISTRO*/   
+    .registro img {
+        width: 26%;
+    }
+    
+    /*PLANES*/ 
+    .plan-contenedor {
+        width: 80%;
+    }
+
+    .info-adicional p{
+        padding:10px 0;
+     }
+}
+
+
+
 @media only screen and (max-width: 1024px){
     /*REGISTRO*/   
     .registro img {
