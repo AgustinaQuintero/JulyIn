@@ -311,9 +311,7 @@
     .redes-sociales {
         top: 68%;
         right: 13%;
-    }
-
-        
+    }     
 }
 
 @media only screen and (max-width: 320px){
@@ -339,19 +337,18 @@
     }
 
     p {
-        font-size: 0.64rem;
+        font-size: 0.8rem;
     }
 
     /*ahora el celu y las opciones se me muestran uno arriba del otro*/
     .span-1-of-2 {
         width: 60%;
     }
-    /*el celu va al medio de la página*/
+   
     .col:first-child {
         margin-left: 10%;
     }
 
-    /*"Pasos" también va al medio de la página"*/
     .col {
         margin-left: 10%;
         margin-top: 7%;
@@ -375,4 +372,10 @@
     .politicas li {
         padding-left: 5px;
     }
+
+    .redes-sociales {
+        width: 50%;
+        right: 10%;
+    }
 }
+
