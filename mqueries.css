@@ -326,6 +326,13 @@
         width: 90%;
     }
 
+    /*HERRAMIENTAS*/
+
+    .span-1-of-4 {
+        width: 80%;
+    }
+ 
+
     /*REGISTRO*/
     .registra-contenedor p {
         padding: 8px 0;
@@ -341,12 +348,12 @@
     }
     /*el celu va al medio de la página*/
     .col:first-child {
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
     /*"Pasos" también va al medio de la página"*/
     .col {
-        margin-left: 20%;
+        margin-left: 10%;
         margin-top: 7%;
     }
     
@@ -368,5 +375,4 @@
     .politicas li {
         padding-left: 5px;
     }
-
 }
