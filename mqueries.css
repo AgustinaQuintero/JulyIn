@@ -57,8 +57,6 @@
 
 @media only screen and (max-width: 768px){
     
-   
-
     /*CARACTERÍSTICAS*/  
     .c-info {
         width: 95%;
@@ -69,9 +67,13 @@
         width: 33%;
     }
 
+    p {
+        text-align: left;
+    }
+
     /*CIUDADES*/
     
-    p{
+    .ciudades p{
         text-align: center;
     }
     
@@ -95,7 +97,7 @@
         width: 100%;
     }
 
-    .plan-contenedor p{
+    .plan-contenedor p {
         font-size: 0.8rem;
         line-height: 155%;
     }
@@ -110,20 +112,30 @@
         padding-left: 27px;
     }
 
-    .politicas::after{
+    .politicas::after {
         margin: 5px auto;
     }
     
     .redes-sociales {
-        right: 16%;
-        top: 50%;
+        right: 15%;
+        width: 30%;
     }
     
     .socios{
-        left: 10%;
+        left: 15%;
+        top:35%;
+    }
+
+    .socios img {
+        width: 100px;
     }
 
 }
+
+
+   
+    
+    
 
 @media only screen and (max-width: 480px){
 
