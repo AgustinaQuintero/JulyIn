@@ -1,10 +1,10 @@
-﻿@media only screen and (max-width: 1024px){
-    /*Registro*/   
+@media only screen and (max-width: 1024px){
+    /*REGISTRO*/   
     .registro img {
         width: 26%;
     }
     
-    /*Planes*/ 
+    /*PLANES*/ 
     .plan-contenedor {
         width: 80%;
     }
@@ -18,17 +18,22 @@
     
    
 
-    /*Características*/  
+    /*CARACTERÍSTICAS*/  
     .c-info {
         width: 95%;
     }
 
-     /*Registro*/   
+     /*REGISTRO*/   
      .registro img {
         width: 33%;
     }
 
-    /*Ciudades*/
+    /*CIUDADES*/
+    
+    p{
+        text-align: center;
+    }
+    
     .ciudades .cuartos{
         width: 22%;
         margin: 1%;      
@@ -44,7 +49,7 @@
     }
 
 
-    /*Planes*/ 
+    /*PLANES*/ 
     .plan-contenedor {
         width: 100%;
     }
@@ -54,7 +59,7 @@
         line-height: 155%;
     }
 
-     /*Footer*/ 
+     /*FOOTER*/ 
     .politicas{
         line-height: 30px;
         right: 10%; 
@@ -81,7 +86,7 @@
 
 @media only screen and (max-width: 480px){
 
-    /*Header*/
+    /*HEADER*/
     .nav-principal{
         width: 100%;
         font-size: 0.9rem;
@@ -129,7 +134,7 @@
         padding-top: 40px;
     }
 
-    /*Planes*/ 
+    /*PLANES*/ 
     .plan-contenedor {
         width: 100%;
     }
@@ -138,7 +143,7 @@
         width: 55%;
     }
 
-    /*Ciudades*/ 
+    /*CIUDADES*/ 
 
     .ciudades .cuartos{
         width: 100%;
@@ -157,7 +162,7 @@
    
     } 
     
-    /*Planes*/ 
+    /*PLANES*/ 
     .plan-completo {
         width: 29%;
         margin-left: 3%;
@@ -172,7 +177,7 @@
         padding:5px 5px;
     }
 
-    /*Footer*/ 
+    /*FOOTER*/ 
     .socios {
         top: 60%;}
 
@@ -190,3 +195,137 @@
     }
 
 }  
+
+@media only screen and (max-width: 425px){
+
+    /*CIUDADES*/
+    .info-adicional p {
+        padding: 10px 90px;
+    }
+
+    /*PLANES*/
+    .plan-cuerpo a {
+        width: 70%;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+
+    /*ahora los planes se ven uno a uno*/
+    .plan-completo{
+        width: 56%;
+        margin-left: 22%;
+        margin-bottom: 20px;
+    }
+    
+    /*PLANES*/
+    registro img {
+        width: 58%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    /*HEADER*/
+    /*Así la separación entre las "pestañas" disminuye y están en una sola línea*/
+    .nav-principal a{
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    .titulo-box {
+        width: 80%;
+    }
+
+    .btn {
+        padding: 10px 30px;
+    }
+
+    /*REGISTRO*/
+    p {
+        font-size: 0.8rem;
+    }
+
+    .registro img {
+        width: 66%;
+    }
+
+    .info-adicional p {
+        padding: 10px 60px;
+    }
+
+    /*FOOTER*/
+    .socios img {
+        width: 48px;
+    }
+
+    .socios {
+        top: 70%;
+    }
+
+    .redes-sociales {
+        top: 68%;
+        right: 13%;
+    }
+
+        
+}
+
+@media only screen and (max-width: 320px){
+    /*HEADER*/
+    .nav-principal a {
+        margin-left: 5px;
+    }
+
+    .titulo-box {
+        width: 90%;
+    }
+
+    /*REGISTRO*/
+    .registra-contenedor p {
+        padding: 8px 0;
+    }
+
+    p {
+        font-size: 0.64rem;
+    }
+
+    /*ahora el celu y las opciones se me muestran uno arriba del otro*/
+    .span-1-of-2 {
+        width: 60%;
+    }
+    /*el celu va al medio de la página*/
+    .col:first-child {
+        margin-left: 20%;
+    }
+
+    /*"Pasos" también va al medio de la página"*/
+    .col {
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+    
+    /*CIUDADES*/
+
+    .info-adicional p {
+        padding: 10px 30px;
+    }   
+
+    /*PLANES*/
+
+    .plan-completo {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    /*FOOTER*/
+
+    .politicas li {
+        padding-left: 5px;
+    }
+
+}
